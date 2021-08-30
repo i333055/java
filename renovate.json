@@ -9,8 +9,7 @@
           "client-java-contrib/**"
        ],
        "matchUpdateTypes": ["major"],
-       "addLabels": ["update-major"],
-       "separateMinorPatch": "true"
+       "addLabels": ["update-major"]
     },
     {
        "matchPaths": [
@@ -19,8 +18,7 @@
        "matchUpdateTypes": ["minor", "patch"],
        "addLabels": ["update-minor-patch"],
        "groupName": "all client-java-contrib minor-patch dependencies",
-       "groupSlug": "client-java-contrib-all-minor-patch",
-       "separateMinorPatch": "true"
+       "groupSlug": "client-java-contrib-all-minor-patch"
      },
       {
        "matchPaths": [
