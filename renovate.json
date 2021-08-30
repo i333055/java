@@ -1,0 +1,34 @@
+{
+   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+   "extends": ["local>i333055/renovate-config:base(lulutest)"],
+   "baseBranches": ["master"],
+   "packageRules": [
+    {
+       "matchPaths": [
+          "client-java-contrib/**"
+       ],
+       "matchUpdateTypes": ["minor", "patch"],
+       "addLabels": ["update-minor-patch"],
+       "groupName": "all client-java-contrib minor-patch dependencies",
+       "groupSlug": "client-java-contrib-all-minor-patch"
+     },
+      {
+       "matchPaths": [
+          "fluent-gen/**"
+       ],
+       "matchUpdateTypes": ["minor", "patch"],
+       "addLabels": ["update-minor-patch"],
+       "groupName": "fluent-gen all minor-patch dependencies",
+       "groupSlug": "fluent-gen-all-minor-patch"
+     },
+      {
+       "matchPaths": [
+          "fluent/**"
+       ],
+       "matchUpdateTypes": ["minor", "patch"],
+       "addLabels": ["update-minor-patch"],
+       "groupName": "fluent all minor-patch dependencies",
+       "groupSlug": "fluent-all-minor-patch"
+     }
+   ]
+}
