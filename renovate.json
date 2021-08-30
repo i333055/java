@@ -7,6 +7,13 @@
        "matchPaths": [
           "client-java-contrib/**"
        ],
+       "matchUpdateTypes": ["major"],
+       "addLabels": ["update-major"]
+    },
+    {
+       "matchPaths": [
+          "client-java-contrib/**"
+       ],
        "matchUpdateTypes": ["minor", "patch"],
        "addLabels": ["update-minor-patch"],
        "groupName": "all client-java-contrib minor-patch dependencies",
@@ -20,7 +27,14 @@
        "addLabels": ["update-minor-patch"],
        "groupName": "fluent-gen all minor-patch dependencies",
        "groupSlug": "fluent-gen-all-minor-patch"
-     },
+     },    
+     {
+       "matchPaths": [
+          "fluent-gen/**"
+       ],
+       "matchUpdateTypes": ["major"],
+       "addLabels": ["update-major"]
+      },
       {
        "matchPaths": [
           "fluent/**"
@@ -29,6 +43,13 @@
        "addLabels": ["update-minor-patch"],
        "groupName": "fluent all minor-patch dependencies",
        "groupSlug": "fluent-all-minor-patch"
-     }
+     },
+     {
+       "matchPaths": [
+          "fluent/**"
+       ],
+       "matchUpdateTypes": ["major"],
+       "addLabels": ["update-major"]
+     },
    ]
 }
