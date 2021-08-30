@@ -50,6 +50,6 @@
        ],
        "matchUpdateTypes": ["major"],
        "addLabels": ["update-major"]
-     },
+     }
    ]
 }
