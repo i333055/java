@@ -18,6 +18,12 @@
             <version>${project.parent.version}</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>io.prometheus</groupId>
+            <artifactId>simpleclient</artifactId>
+            <version>0.11.0</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
