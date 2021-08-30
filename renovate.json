@@ -2,13 +2,15 @@
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
    "extends": ["local>i333055/renovate-config:base(lulutest)"],
    "baseBranches": ["master"],
+   "separateMinorPatch": "true",
    "packageRules": [
     {
        "matchPaths": [
           "client-java-contrib/**"
        ],
        "matchUpdateTypes": ["major"],
-       "addLabels": ["update-major"]
+       "addLabels": ["update-major"],
+       "separateMinorPatch": "true"
     },
     {
        "matchPaths": [
@@ -17,7 +19,8 @@
        "matchUpdateTypes": ["minor", "patch"],
        "addLabels": ["update-minor-patch"],
        "groupName": "all client-java-contrib minor-patch dependencies",
-       "groupSlug": "client-java-contrib-all-minor-patch"
+       "groupSlug": "client-java-contrib-all-minor-patch",
+       "separateMinorPatch": "true"
      },
       {
        "matchPaths": [
