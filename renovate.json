@@ -1,14 +1,13 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["config:base", ":disableRateLimiting"],
+   "extends": ["local>i333055/renovate-config:base(maintance)"],
    "baseBranches": ["master"],
    "packageRules": [
     {
        "matchPaths": [
           "client-java-contrib/**"
        ],
-       "groupName": "all client-java-contrib minor-patch dependencies",
-       "groupSlug": "client-java-contrib-all-minor-patch"
+       "addLabels": ["client-java-contrib"]
      },
      {
        "matchPaths": [
