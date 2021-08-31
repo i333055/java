@@ -1,6 +1,6 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["local>i333055/renovate-config:base(lulutest)"],
+   "extends": ["config:base"],
    "baseBranches": ["master"],
    "packageRules": [
     {
