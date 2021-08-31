@@ -7,15 +7,6 @@
        "matchPaths": [
           "client-java-contrib/**"
        ],
-       "matchUpdateTypes": ["major"],
-       "addLabels": ["major-update"],
-       "groupName": "all client-java-contrib major dependencies",
-       "groupSlug": "client-java-contrib-all-major"
-    },
-    {
-       "matchPaths": [
-          "client-java-contrib/**"
-       ],
        "matchUpdateTypes": ["minor", "patch"],
        "addLabels": ["update-minor-patch"],
        "groupName": "all client-java-contrib minor-patch dependencies",
