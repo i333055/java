@@ -3,24 +3,6 @@
    "extends": ["local>i333055/renovate-config:base(lulutest)"],
    "baseBranches": ["master"],
    "packageRules": [
-    {
-       "matchPaths": [
-          "client-java-contrib/**"
-       ],
-       "matchUpdateTypes": ["minor", "patch"],
-       "addLabels": ["update-minor-patch"],
-       "groupName": "all client-java-contrib minor-patch dependencies",
-       "groupSlug": "client-java-contrib-all-minor-patch"
-     },
-     {
-       "matchPaths": [
-          "client-java-contrib/**"
-       ],
-       "matchUpdateTypes": ["major"],
-       "addLabels": ["update-major"],
-       "groupName": "all client-java-contrib major dependencies",
-       "groupSlug": "client-java-contrib-all-major-patch"
-     },
      {
        "matchPaths": [
           "fluent-gen/**"
