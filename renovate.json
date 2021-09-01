@@ -2,7 +2,7 @@
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
    "extends": ["local>i333055/renovate-config:base(maintance)"],
    "baseBranches": ["master"],
-   "assignees" : ["i333055"]
+   "assignees" : ["i333055"],
    "packageRules": [
     {
        "matchPaths": [
