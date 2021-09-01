@@ -1,6 +1,6 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["local>i333055/renovate-config:base(maintance)",":assignee(lulu.ran@sap.com)"],
+   "extends": ["local>i333055/renovate-config:base(maintance)",":assignee(i333055)"],
    "baseBranches": ["master"],
    "assignees" : ["i333055"],
    "packageRules": [
