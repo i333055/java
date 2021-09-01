@@ -2,6 +2,7 @@
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
    "extends": ["local>i333055/renovate-config:base(maintance)"],
    "baseBranches": ["master"],
+   "assignees" : ["i333055"]
    "packageRules": [
     {
        "matchPaths": [
@@ -9,8 +10,7 @@
        ],
        "groupName": "client-java-contrib all minor-patch dependencies",
        "groupSlug": "client-java-contrib-all-minor-patch",
-       "addLabels": ["client-java-contrib"],
-       "assignees" : ["i333055"]
+       "addLabels": ["client-java-contrib"]
      }
    ]
 }
