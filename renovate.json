@@ -10,7 +10,7 @@
        "groupName": "client-java-contrib all minor-patch dependencies",
        "groupSlug": "client-java-contrib-all-minor-patch",
        "addLabels": ["client-java-contrib"],
-       "assignees" : ["lulu.ran@sap.com"]
+       "assignees" : ["i333055"]
      }
    ]
 }
