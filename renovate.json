@@ -9,25 +9,8 @@
        ],
        "groupName": "client-java-contrib all minor-patch dependencies",
        "groupSlug": "client-java-contrib-all-minor-patch",
-       "addLabels": ["client-java-contrib"]
-     },
-     {
-       "matchPaths": [
-          "fluent-gen/**"
-       ],
-       "matchUpdateTypes": ["minor", "patch"],
-       "addLabels": ["update-minor-patch"],
-       "groupName": "fluent-gen all minor-patch dependencies",
-       "groupSlug": "fluent-gen-all-minor-patch"
-     },
-     {
-       "matchPaths": [
-          "fluent/**"
-       ],
-       "matchUpdateTypes": ["minor", "patch"],
-       "addLabels": ["update-minor-patch"],
-       "groupName": "fluent all minor-patch dependencies",
-       "groupSlug": "fluent-all-minor-patch"
+       "addLabels": ["client-java-contrib"],
+       "assignees" : ["lulu.ran@sap.com"]
      }
    ]
 }
