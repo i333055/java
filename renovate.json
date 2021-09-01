@@ -3,6 +3,7 @@
    "extends": ["local>i333055/renovate-config:base(maintance)",":assignee(i333055)"],
    "baseBranches": ["master"],
    "assignees" : ["i333055"],
+   "assignAutomerge":true,
    "packageRules": [
     {
        "matchPaths": [
