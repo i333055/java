@@ -7,6 +7,8 @@
        "matchPaths": [
           "client-java-contrib/**"
        ],
+       "groupName": "client-java-contrib all minor-patch dependencies",
+       "groupSlug": "client-java-contrib-all-minor-patch"
        "addLabels": ["client-java-contrib"]
      },
      {
