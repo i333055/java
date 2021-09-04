@@ -94,7 +94,7 @@
           "hybris/bin/modules/cds-merchandising/**",
           "hybris/bin/modules/personalization-integration/**"
        ],
-       "addLabels": ["occtopus"],
+       "addLabels": ["occtopus"]
      },
      {
        "matchPaths": [
