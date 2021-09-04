@@ -1,117 +1,16 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["local>i333055/renovate-config:base(maintance)", "group:allNonMajor"],
-   "baseBranches": ["integration/20.11", "integration/20.05"],
+   "extends": ["local>i333055/renovate-config:base(maintance)"],
+   "baseBranches": ["master"],
    "packageRules": [
     {
        "matchPaths": [
-          "hybris/bin/modules/assisted-services/**",
-          "hybris/bin/modules/china-accelerator-addons/**",
-          "hybris/bin/modules/china-accelerator-address/**",
-          "hybris/bin/modules/china-accelerator-alipay-psp/**",
-          "hybris/bin/modules/china-accelerator-logistics/**",
-          "hybris/bin/modules/china-accelerator-payment/**",
-          "hybris/bin/modules/china-accelerator-people-profile/**",
-          "hybris/bin/modules/china-accelerator-tax-invoice/**",
-          "hybris/bin/modules/china-accelerator-wechat-psp/**",
-          "hybris/bin/modules/configurable-bundle/**",
-          "hybris/bin/modules/consignment-tracking/**",
-          "hybris/bin/modules/customer-interest/**",
-          "hybris/bin/modules/customer-service/**",
-          "hybris/bin/modules/entitlements/**",
-          "hybris/bin/modules/marketplace/**",
-          "hybris/bin/modules/notification/**",
-          "hybris/bin/modules/order-management/**",
-          "hybris/bin/modules/selective-cart/**",
-          "hybris/bin/modules/stock-notification/**",
-          "hybris/bin/modules/subscription-bundles/**",
-          "hybris/bin/modules/subscriptions/**",
-          "hybris/bin/modules/yforms/**",
-          "hybris/bin/modules/assisted-services-integrations/**"                  
+          "client-java-contrib/**"
        ],
-       "addLabels": ["holiday"]
-    },
-    {
-       "matchPaths": [
-          "hybris/bin/modules/b2b-accelerator-addons/**",
-          "hybris/bin/modules/b2b-accelerator/**",
-          "hybris/bin/modules/b2b-commerce/**",
-          "hybris/bin/modules/b2c-accelerator-addons/**",
-          "hybris/bin/modules/b2c-accelerator/**",
-          "hybris/bin/modules/base-accelerator/**",
-          "hybris/bin/modules/core-accelerator/**"         
-       ],
-       "addLabels": ["zeppelins"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/search-and-navigation/**",
-          "hybris/bin/modules/adaptive-search/**",
-          "hybris/bin/modules/search-services/**"
-       ],
-       "addLabels": ["chtulhu"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/personalization-promotion/**",
-          "hybris/bin/modules/personalization-search/**",
-          "hybris/bin/modules/personalization/**",
-          "hybris/bin/modules/web-content-management-system/**",
-          "hybris/bin/modules/smartedit/**",
-          "hybris/bin/modules/npm-ancillary/npmancillary/**"
-       ],
-       "addLabels": ["orcas"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/integration-apis/**",
-          "hybris/bin/modules/data-hub-adapter/**"
-       ],
-       "addLabels": ["stout"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/sap-cloud-platform-extension-factory-integration/**",
-          "hybris/bin/modules/api-registry/**"
-       ],
-       "addLabels": ["griffin"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/hybris-utilities/**"
-       ],
-       "addLabels": ["webspinners"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/platform/**",
-          "hybris/bin/platform/**"
-       ],
-       "addLabels": ["horst"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/cds-merchandising/**",
-          "hybris/bin/modules/personalization-integration/**"
-       ],
-       "addLabels": ["occtopus"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/cds-integration/**",
-          "hybris/bin/modules/event-tracking/**"
-       ],
-       "addLabels": ["argonauts"]
-     },
-     {
-       "matchPaths": [
-          "hybris/bin/modules/cockpit-applications/**",
-          "hybris/bin/modules/cockpit-core/**",
-          "hybris/bin/modules/backoffice-addons/**",
-          "hybris/bin/modules/backoffice-applications/**",
-          "hybris/bin/modules/backoffice-framework/**"
-       ],
-       "addLabels": ["dragonboat"]
-     }            
+       "groupName": "client-java-contrib group minor-patch dependencies",
+       "groupSlug": "client-java-contrib-group-minor-patch",
+       "addLabels": ["client-java-contrib"],
+       "assignees": ["i333055"]
+     }
    ]
 }
