@@ -7,10 +7,7 @@
        "matchPaths": [
           "client-java-contrib/**"
        ],
-       "groupName": "client-java-contrib group minor-patch dependencies",
-       "groupSlug": "client-java-contrib-group-minor-patch",
-       "addLabels": ["client-java-contrib"],
-       "assignees": ["i333055"]
+       "additionalBranchPrefix": "lulutest-",
      }
    ]
 }
