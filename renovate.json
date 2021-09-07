@@ -7,7 +7,7 @@
        "matchPaths": [
           "client-java-contrib/**"
        ],
-       "additionalBranchPrefix": "lulutest-",
+       "additionalBranchPrefix": "lulutest - "
      }
    ]
 }
