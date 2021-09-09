@@ -17,12 +17,6 @@
      },
      {
        "matchPaths": [
-          "fluent-gen/**"
-       ],
-       "additionalBranchPrefix": "fluent-gen: "
-     },
-     {
-       "matchPaths": [
           "fluent/**"
        ],
        "additionalBranchPrefix": "fluent: "
