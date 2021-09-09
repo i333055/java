@@ -7,19 +7,22 @@
        "matchPaths": [
           "client-java-contrib/**"
        ],
-       "additionalBranchPrefix": "client-java-contrib: "
+       "additionalBranchPrefix": "client-java-contrib/",
+       "commitMessagePrefix": "client-java-contrib : "
      },
      {
        "matchPaths": [
           "fluent-gen/**"
        ],
-       "additionalBranchPrefix": "fluent-gen: "
+       "additionalBranchPrefix": "fluent-gen/",
+       "commitMessagePrefix": "fluent-gen : "
      },
      {
        "matchPaths": [
           "fluent/**"
        ],
-       "additionalBranchPrefix": "fluent: "
+       "additionalBranchPrefix": "fluent/",
+       "commitMessagePrefix": "fluent : "
      }
    ]
 }
