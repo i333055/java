@@ -1,5 +1,28 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
    "extends": ["local>i333055/renovate-config:base(maintance)", "group:allNonMajor"],
-   "baseBranches": ["master"]
+   "baseBranches": ["master"],
+   "packageRules": [
+    {
+       "matchPaths": [
+          "client-java-contrib/**"
+       ],
+       "additionalBranchPrefix": "client-java-contrib/",
+       "commitMessagePrefix": "client-java-contrib : "
+     },
+     {
+       "matchPaths": [
+          "fluent-gen/**"
+       ],
+       "additionalBranchPrefix": "fluent-gen/",
+       "commitMessagePrefix": "fluent-gen : "
+     },
+     {
+       "matchPaths": [
+          "fluent/**"
+       ],
+       "additionalBranchPrefix": "fluent/",
+       "commitMessagePrefix": "fluent : "
+     }
+   ]
 }
