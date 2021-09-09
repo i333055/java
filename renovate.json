@@ -4,6 +4,16 @@
    "baseBranches": ["master"],
    "packageRules": [
     {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "all minor path dependencies",
+      "groupSlug": "all-minor-patch",
+      "commitMessageSuffix": " (all-minor-patch)"
+    },
+    {
        "matchPaths": [
           "client-java-contrib/**"
        ],
