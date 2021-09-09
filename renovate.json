@@ -1,6 +1,6 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["local>i333055/renovate-config:base(maintance)", "group:allNonMajor"],
+   "extends": ["local>i333055/renovate-config:base(maintance)"],
    "baseBranches": ["master"],
    "packageRules": [
     {
