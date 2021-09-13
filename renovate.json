@@ -6,7 +6,7 @@
       "client-java-contrib/**",
       "fluent-gen/**",
       "fluent/**"
-   }
+   },
    "packageRules": [
     {
       "matchPackagePatterns": ["*"],
