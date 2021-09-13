@@ -16,7 +16,8 @@
       ],
       "groupName": "all minor path dependencies",
       "groupSlug": "all-minor-patch",
-      "commitMessageSuffix": " (all-minor-patch)"
+      "commitMessageSuffix": " (all-minor-patch)",
+      "prPriority": 5
     },
     {
        "matchPaths": [
