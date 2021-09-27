@@ -1,6 +1,6 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["local>i333055/renovate-config:base(maintance)"],
+   "extends": ["local>i333055/renovate-config:base(2105-Maintance)"],
    "baseBranches": ["master"],
    "includePaths": [
       "client-java-contrib/**",
@@ -8,17 +8,6 @@
       "fluent/**"
    ],
    "packageRules": [
-    {
-      "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "groupName": "all minor path dependencies",
-      "groupSlug": "all-minor-patch",
-      "commitMessageSuffix": " (all-minor-patch)",
-      "prPriority": -2
-    },
     {
        "matchPaths": [
           "client-java-contrib/**"
