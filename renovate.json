@@ -1,6 +1,6 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["local>i333055/renovate-config:base(2105-Maintance)"],
+   "extends": ["local>i333055/renovate-config:base(2105-test-Maintance)"],
    "baseBranches": ["master"],
    "includePaths": [
       "client-java-contrib/**",
