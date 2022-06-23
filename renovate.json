@@ -8,7 +8,6 @@
      ":rebaseStalePrs",
      ":dependencyDashboard",
      ":disableDevDependencies",
-     ":combinePatchMinorReleases",
      "github>whitesource/merge-confidence:beta"
    ],
    "enabledManagers": ["nvm", "maven"],
@@ -20,6 +19,7 @@
     ]
   },
   "dependencyDashboardTitle": "SBG Dependency Dashboard",
+  "separateMinorPatch": false,
   "dependencyDashboardHeader": "This issue contains a list of Renovate updates and their statuses for sbg.",
   "branchPrefix": "renovate-sbg/",
   "labels": ["renovate", "sbg", "Holiday"]
