@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.kubernetes</groupId>
         <artifactId>client-java-parent</artifactId>
-        <version>13.0.1-SNAPSHOT</version>
+        <version>13.0.2</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
     <!-- the version tracks the release version of the CRDs in the upstream cert-manager project -->
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>io.prometheus</groupId>
             <artifactId>simpleclient</artifactId>
-            <version>0.11.0</version>
+            <version>0.16.0</version>
             <optional>true</optional>
         </dependency>
         <dependency>

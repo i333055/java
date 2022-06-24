@@ -13,7 +13,7 @@
   <parent>
     <groupId>io.kubernetes</groupId>
     <artifactId>client-java-parent</artifactId>
-    <version>12.0.1-SNAPSHOT</version>
+    <version>12.0.2</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -22,7 +22,7 @@
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
-        <version>5.1.2</version>
+        <version>5.1.6</version>
       </plugin>
     </plugins>
   </build>

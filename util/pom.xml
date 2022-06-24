@@ -8,7 +8,7 @@
     <parent>
         <groupId>io.kubernetes</groupId>
         <artifactId>client-java-parent</artifactId>
-        <version>13.0.1-SNAPSHOT</version>
+        <version>13.0.2</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <dependencies>
@@ -122,7 +122,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.7</version>
+                <version>0.8.8</version>
                 <executions>
                     <execution>
                         <id>jacoco-initialize</id>
